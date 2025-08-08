@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三分球大赛游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>三分球大赛</h1>
+        <div class="game-info">
+            <p>时间: <span id="timer">60</span>秒</p>
+            <p>得分: <span id="score">0</span>分</p>
+        </div>
+        <div class="court">
+            <div class="basket" id="basket"></div>
+            <canvas id="gameCanvas" width="800" height="600"></canvas>
+        </div>
+        <div class="controls">
+            <button id="startBtn">开始游戏</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
